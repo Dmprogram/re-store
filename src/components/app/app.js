@@ -11,8 +11,8 @@ import { CartPage,
 const App = () => {
     return (
         <main role='main' className="container">
-            <Header numItems={5} total={200} />
             <BrowserRouter>
+            <Header numItems={5} total={200} />
                 <Routes>
                     <Route path='/' element={<HomePage />} />
                     <Route path='/cart' element={<CartPage />} />
