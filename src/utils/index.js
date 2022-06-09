@@ -1,5 +1,3 @@
 import compose from "./compose";
 
-export {
-    compose
-};
+export default compose;
