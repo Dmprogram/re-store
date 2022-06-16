@@ -8,7 +8,7 @@ function App() {
   return (
     <main role="main" className="container">
       <BrowserRouter>
-        <Header numItems={5} total={200} />
+        <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/cart" element={<CartPage />} />

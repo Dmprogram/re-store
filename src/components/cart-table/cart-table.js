@@ -46,7 +46,7 @@ function CartTable({ items, total, onIncrease, onDecrease, onDelete }) {
         <thead>
           <tr>
             <th>#</th>
-            <th>Item</th>
+            <th>The book&apos;s title</th>
             <th>Count</th>
             <th>Price</th>
             <th>Action</th>

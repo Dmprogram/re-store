@@ -1,10 +1,14 @@
 .cart-table {
-  margin-top: 45px;
+  margin-top: 40px;
+}
+
+.cart-table h2 {
+  margin-bottom: 1.5rem;
 }
 
 .cart-table .total {
   text-align: right;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-right: 10px;
   margin-bottom: 50px;
 }
