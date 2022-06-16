@@ -55,7 +55,7 @@ function CartTable({ items, total, onIncrease, onDecrease, onDelete }) {
         <tbody>{items.map(renderRow)}</tbody>
       </table>
 
-      <div className="total">Total: ${total}</div>
+      <div className="total">Total price: ${total}</div>
     </div>
   );
 }

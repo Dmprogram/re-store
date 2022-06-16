@@ -44,12 +44,10 @@ class BookListContainer extends Component {
   }
 }
 
-const mapStateToProps = (
-  state // ({books})
-) => ({
+const mapStateToProps = (state) => ({
   books: state.bookList.books,
   loading: state.bookList.loading,
-  error: state.bookList.error, // {books}
+  error: state.bookList.error,
 });
 const mapDispatchToProps = (dispatch, ownProps) => {
   const { bookstoreService } = ownProps;
@@ -58,19 +56,6 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     onAddedToCart: (id) => dispatch(bookAddedToCart(id)),
   };
 };
-
-// booksLoaded,
-// booksRequested,
-// booksError
-
-// return bindActionCreators({
-//     booksLoaded,
-// }, dispatch);
-
-// return {
-//     booksLoaded: (newBooks) => {
-//         dispatch(booksLoaded(newBooks));
-//     }
 
 export default compose(
   withBookstoreService(),
