@@ -10,9 +10,9 @@ function CartTable({ items, total, onIncrease, onDecrease, onDelete }) {
       <tr key={id}>
         <td>{idx + 1}</td>
         <td>{title}</td>
-        <td>{count}</td>
         <td>${totalBookPrice}</td>
-        <td>
+        <td>{count}</td>
+        <td className="buttons">
           <button
             type="button"
             onClick={() => onDelete(id)}
@@ -47,14 +47,13 @@ function CartTable({ items, total, onIncrease, onDecrease, onDelete }) {
           <tr>
             <th>#</th>
             <th>The book&apos;s title</th>
-            <th>Count</th>
             <th>Price</th>
+            <th>Count</th>
             <th>Action</th>
           </tr>
         </thead>
         <tbody>{items.map(renderRow)}</tbody>
       </table>
-
       <div className="total">Total price: ${total}</div>
     </div>
   );

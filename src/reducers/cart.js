@@ -53,6 +53,7 @@ const updateCart = (state, action) => {
     return {
       cartItems: [],
       orderTotal: 0,
+      quantityTotal: 0,
     };
   }
 

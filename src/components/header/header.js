@@ -19,10 +19,7 @@ function Header({ numItems, total }) {
   );
 }
 
-const mapStateToProps = ({
-  cart: { cartItems, orderTotal, quantityTotal },
-}) => ({
-  items: cartItems,
+const mapStateToProps = ({ cart: { orderTotal, quantityTotal } }) => ({
   total: orderTotal,
   numItems: quantityTotal,
 });

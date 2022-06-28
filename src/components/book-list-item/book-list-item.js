@@ -2,7 +2,7 @@ import React from "react";
 import "./book-list-item.css";
 
 function BookListItem({ book, onAddedToCart }) {
-  const { title, author, price, coverImage } = book;
+  const { title, author, price, coverImage, description } = book;
   return (
     <div className="book-list-item">
       <div className="book-cover">
@@ -19,6 +19,10 @@ function BookListItem({ book, onAddedToCart }) {
         >
           Add to cart
         </button>
+      </div>
+      <div className="description">
+        <h4>The book description:</h4>
+        {description}
       </div>
     </div>
   );
