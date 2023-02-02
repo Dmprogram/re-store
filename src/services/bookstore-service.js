@@ -2,6 +2,45 @@ export default class BookstoreService {
   data = [
     {
       id: 1,
+      title: "Three Comrades",
+      author: "Erich Maria Remarque",
+      price: 50,
+      coverImage: "https://cv6.litres.ru/pub/c/cover_max1500/32544665.jpg",
+      description:
+        "Three Comrades (German: Drei Kameraden) is a 1936 novel by the German author Erich Maria Remarque. It is written in first person by the main character Robert Lohkamp, whose somewhat disillusioned outlook on life is due to his horrifying experiences in the trenches of the First World War's French-German front. He shares these experiences with Otto Köster and Gottfried Lenz, his two comrades with whom he runs an auto-repair shop in what may be late-1920s Berlin. ",
+    },
+    {
+      id: 2,
+      title: "The Little Prince",
+      author: "Antoine de Saint-Exupéry",
+      price: 40,
+      coverImage:
+        "https://upload.wikimedia.org/wikipedia/en/0/05/Littleprince.JPG",
+      description:
+        "The Little Prince is an honest and beautiful story about loneliness, friendship, sadness, and love. The prince is a small boy from a tiny planet (an asteroid to be precise), who travels the universe, planet-to-planet, seeking wisdom. On his journey, he discovers the unpredictable nature of adults.",
+    },
+    {
+      id: 3,
+      title: "The Great Gatsby",
+      author: "	F. Scott Fitzgerald",
+      price: 45,
+      coverImage:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg/330px-The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      description:
+        "1984 is a dystopian novella by George Orwell published in 1949, which follows the life of Winston Smith, a low ranking member of 'the Party', who is frustrated by the omnipresent eyes of the party, and its ominous ruler Big Brother. 'Big Brother' controls every aspect of people's lives.",
+    },
+    {
+      id: 4,
+      title: "Fight Club",
+      author: "Chuck Palahniuk",
+      price: 40,
+      coverImage:
+        "https://anylang.net/sites/default/files/covers/fight-club.jpg",
+      description:
+        "Fight Club is a 1996 novel by Chuck Palahniuk. It follows the experiences of an unnamed protagonist struggling with insomnia. Inspired by his doctor's exasperated remark that insomnia is not suffering, the protagonist finds relief by impersonating a seriously ill person in several support groups.",
+    },
+    {
+      id: 5,
       title: "1984",
       author: "George Orwell",
       price: 40,
@@ -12,7 +51,7 @@ export default class BookstoreService {
     },
 
     {
-      id: 2,
+      id: 6,
       title: "Animal farm",
       author: "George Orwell",
       price: 30,
@@ -23,7 +62,7 @@ export default class BookstoreService {
     },
 
     {
-      id: 3,
+      id: 7,
       title: "The Da Vinci code",
       author: "Dan Brown",
       price: 35,
@@ -32,7 +71,7 @@ export default class BookstoreService {
         "The Da Vinci Code follows symbologist Robert Langdon and cryptologist Sophie Neveu after a murder in the Louvre Museum in Paris causes them to become involved in a battle between the Priory of Sion and Opus Dei over the possibility of Jesus Christ and Mary Magdalene having had a child together.",
     },
     {
-      id: 4,
+      id: 8,
       title: "Robinson Crusoe",
       author: "Daniel Defoe",
       price: 20,
